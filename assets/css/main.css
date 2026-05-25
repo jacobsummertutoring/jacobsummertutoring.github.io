@@ -42,7 +42,7 @@ body {
 
 header {
     background: #040606;
-    color: #fff;
+    color: #f0fffe;
     padding: 1rem;
     text-align: center;
 }
@@ -73,7 +73,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #f0fffe;
     text-decoration: none;
 }
 
@@ -116,12 +116,16 @@ main section {
     --color-about: #507b84;
 }
 
+#tagline {
+    font-size: 1.75rem;
+}
+
 #home {
     background: var(--color-home);
 }
 
 #home-container {
-    background: #f4f4f4;
+    background: #f0fffe;
     border-radius: 15px;
     padding: 1rem;
     text-align: center;
@@ -144,7 +148,7 @@ main section {
 
 footer {
     background: #040606;
-    color: #fff;
+    color: #f0fffe;
     text-align: center;
     padding: 1rem;
     position: relative
