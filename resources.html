@@ -1,43 +1,81 @@
 <!DOCTYPE html>
-
 <html lang="en-US">
-    <head>
-        <title>Resources - yourpaljake.github.io</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-    </head>
 
-    <body>
-        <header>
-            <div class="branding">
-                <img src="/assets/images/profile-nobg.png" alt="Website Logo" class="logo">
-                <span class="tagline">yourpaljake's Corner of the Internet</span>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources | Jacob's Summer Tutoring</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="branding">
+            <img src="/assets/images/profile-nobg.png" alt="Jacob Logo" class="logo">
+            <h1>Jacob's Summer Tutoring</h1>
+        </div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/resources.html">Resources</a>
+            <a href="/about.html">About</a>
+        </nav>
+    </header>
+
+    <main class="resources-page">
+        <section class="card">
+            <h2>Resources</h2>
+            <p>
+                As the course progresses, I will be posting all of my typed
+                notes and resources here. I have also included sample notes
+                from previous courses to give you an idea of what to expect.
+            </p>
+        </section>
+        <section class="card dark">
+            <h2>Course Notes</h2>
+            <div class="semester-grid">
+                <div>
+                    <h3>Semester 1</h3>
+                    <ul class="notes-list">
+                        <li><a href="#">Unit 1: Geometry Beginnings</a></li>
+                        <li><a href="#">Unit 2: Geometric Reasoning</a></li>
+                        <li><a href="#">Unit 3: Lines and Angles</a></li>
+                        <li><a href="#">Unit 4: Congruent Triangles</a></li>
+                        <li><a href="#">Unit 5: Relationships within Triangles</a></li>
+                        <li><a href="#">Unit 6: Right Triangles</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Semester 2</h3>
+                    <ul class="notes-list">
+                        <li><a href="#">Unit 7: Transformations</a></li>
+                        <li><a href="#">Unit 8: Similarity</a></li>
+                        <li><a href="#">Unit 9: Polygons and Quadrilaterals</a></li>
+                        <li><a href="#">Unit 10: Perimeter and Area</a></li>
+                        <li><a href="#">Unit 11: Surface Area and Volume</a></li>
+                        <li><a href="#">Unit 12: Circles</a></li>
+                        <li><a href="#">Unit 13: Probability</a></li>
+                    </ul>
+                </div>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/resources.html">Resources</a></li>
-                    <li><a href="/about.html">About</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="home">
-                <h2>Resources
-                </h2>
-                <!--
-                Source - https://stackoverflow.com/a/7044015
-                Posted by Batfan, modified by community. See post 'Timeline' for change history
-                Retrieved 2026-05-25, License - CC BY-SA 4.0
-                -->
-                
-                <embed src="https://yourpaljake.github.io/archive/PeerReviews/PeerReview1.pdf" width="90%" height="600" type="application/pdf">
-            </section>
-        </main>
-        <footer>
-            <p>Placeholder Footer</p>
-        </footer>
-        <script src="assets/js/scripts.js"></script>
-    </body>
+        </section>
+        <section class="card blue">
+            <h2>Sample Notes</h2>
+            <div class="pdf-container">
+                <!-- Source - https://stackoverflow.com/a/7044015 Posted by Batfan, modified by community. See post 'Timeline' for change history Retrieved 2026-05-25, License - CC BY-SA 4.0 -->
+                <embed src="./notes/partialfractions.pdf" type="application/pdf">
+            </div>
+            <div class="pdf-container">
+                <embed src="./notes/trig_sub.pdf" type="application/pdf">
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Jacob's Summer Tutoring</p>
+    </footer>
+
+</body>
+
 </html>

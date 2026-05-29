@@ -1,64 +1,59 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html lang="en-US">
-    <head>
-        <title>Jacob's Summer Tutoring</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jacob's Summer Tutoring</title>
 
-    <body class="is-preload">
-        <header id="top-page">
-            <div class="top-colored-box"></div>
-            <div class="branding">
-                <img src="/assets/images/profile-nobg.png" alt="Website Logo" class="logo">
-                <span class="tagline" id="mytitle">Jacob's Summer Tutoring</span>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#top-page">Home</a></li>
-                    <li><a href="#resources">Resources</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="home">
-                <div id="home-container">
-                    <h2>Welcome to Jacob's Summer Tutoring</h2>
-                    <p>
-                        I'm excited to offer tutoring services this summer! My primary focus will be supporting students enrolled in UC Scout's
-                        Geometry course, but I'm also happy to help students who need support in other subjects or areas. Please see my “About
-                        Me” section for a list of classes I can assist with, and feel free to reach out with any questions.
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
 
-                    </p>
-                </div>
-            </section>
-            <section id="resources">
-                <div class="section-header-container">
-                    <h2>Resources</h2>
-                </div>
-                <div class="section-text-container">
-                    <p>As the course progresses, I will be posting all of my typed notes and resources here.</p>
-                    <a href="/resources.html">View Resources &rarr;</a>
-                </div>
-            </section>
-            <section id="about">
-                <div class="section-header-container">
-                    <h2>About Me</h2>
-                </div>
-                <div class="section-text-container">
-                    <p>
-                        My name is Jacob, and I recently graduated from Purdue University with degrees in Applied Physics Honors, Mathematics, and Computer Science. I have a passion for teaching and have been tutoring students in various subjects for several years. I am excited to share my knowledge and help students succeed in their academic endeavors.
-                    </p>
-                    <a href="/about.html">View Details &rarr;</a>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <p>Jacob's Summer Tutoring</p>
-        </footer>
-        <script src="assets/js/scripts.js"></script>
-    </body>
+<body>
+
+    <header class="site-header">
+        <div class="branding">
+            <img src="/assets/images/profile-nobg.png" alt="Jacob Logo" class="logo">
+
+            <h1>Jacob's Summer Tutoring</h1>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="./resources.html">Resources</a>
+            <a href="./about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="card">
+            <h2>Welcome to Jacob's Summer Tutoring</h2>
+            <p>
+                I'm excited to offer tutoring services this summer! My primary focus will be supporting students enrolled in UC Scout's Geometry course, but I'm also happy to help students who need support in other subjects or areas. Please see my “About” section for a list of classes I can assist with, and feel free to reach out with any questions.
+            </p>
+        </section>
+        <section id="resources" class="card dark">
+            <h2>Resources</h2>
+            <p>
+                As the course progresses, I will be posting all of my typed notes and resources here.
+            </p>
+            <a href="/resources.html" class="button-link">
+                View Resources →
+            </a>
+        </section>
+        <section id="about" class="card blue">
+            <h2>About</h2>
+            <p>
+                My name is Jacob, and I recently graduated from Purdue University with degrees in Applied Physics Honors, Mathematics, and Computer Science. I have a passion for teaching and have been tutoring students in various subjects for several years.
+            </p>
+            <a href="/about.html" class="button-link">
+                View Details →
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Jacob's Summer Tutoring</p>
+    </footer>
+
+</body>
 </html>
